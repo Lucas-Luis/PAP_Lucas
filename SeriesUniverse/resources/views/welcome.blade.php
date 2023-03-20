@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="One Movies Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="One Movies Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -38,19 +38,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
 <script src="js/owl.carousel.js"></script>
 <script>
-	$(document).ready(function() { 
+	$(document).ready(function() {
 		$("#owl-demo").owlCarousel({
-	 
+
 		  autoPlay: 3000, //Set AutoPlay to 3 seconds
-	 
+
 		  items : 5,
 		  itemsDesktop : [640,4],
 		  itemsDesktopSmall : [414,3]
-	 
+
 		});
-	 
-	}); 
-</script> 
+
+	});
+</script>
 <!-- //banner-bottom-plugin -->
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
@@ -58,7 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- start-smoth-scrolling -->
 </head>
-	
+
 <body>
 <!-- header -->
 	<div class="header">
@@ -96,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="modal-content">
 				<div class="modal-header">
 					Sign In & Sign Up
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -135,7 +135,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		$('.toggle').click(function(){
 		  // Switches the Icon
 		  $(this).children('i').toggleClass('fa-pencil');
-		  // Switches the forms  
+		  // Switches the forms
 		  $('.form').animate({
 			height: "toggle",
 			'padding-top': 'toggle',
@@ -201,7 +201,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</li>
 								</ul>
 							</li>
-							<li><a href="series.html">tv - series</a></li>
+							<li><a href="/serie/list">tv - series</a></li>
 							<li><a href="news.html">news</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Country <b class="caret"></b></a>
@@ -240,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</nav>
 				</div>
-			</nav>	
+			</nav>
 		</div>
 	</div>
 <!-- //nav -->
@@ -253,7 +253,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li><img src="images/4.jpg" alt=" "><p class='title'>Central Intelligence</p><p class='description'>Bullied as a teen for being overweight, Bob Stone (Dwayne Johnson) shows up to his high school reunion looking fit and muscular. Claiming to be on a top-secret ...</p></li>
 			<li><img src="images/6.jpg" alt=" "><p class='title'>Ice Age</p><p class='description'>In the film's epilogue, Scrat keeps struggling to control the alien ship until it crashes on Mars, destroying all life on the planet.</p></li>
 			<li><img src="images/7.jpg" alt=" "><p class='title'>X - Man</p><p class='description'>In 1977, paranormal investigators Ed (Patrick Wilson) and Lorraine Warren come out of a self-imposed sabbatical to travel to Enfield, a borough in north ...</p></li>
-		</ul>   	
+		</ul>
     </div>
     <script src="js/jquery.slidey.js"></script>
     <script src="js/jquery.dotdotdot.min.js"></script>
@@ -279,7 +279,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Citizen Soldier</a></h6>							
+									<h6><a href="single.html">Citizen Soldier</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -307,7 +307,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">X-Men</a></h6>							
+									<h6><a href="single.html">X-Men</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -335,7 +335,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Greater</a></h6>							
+									<h6><a href="single.html">Greater</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -363,7 +363,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Light B/t Oceans</a></h6>							
+									<h6><a href="single.html">Light B/t Oceans</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -391,7 +391,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">The BFG</a></h6>							
+									<h6><a href="single.html">The BFG</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -419,7 +419,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Central Intelligence</a></h6>							
+									<h6><a href="single.html">Central Intelligence</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -447,7 +447,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Don't Think Twice</a></h6>							
+									<h6><a href="single.html">Don't Think Twice</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -475,7 +475,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Peter</a></h6>							
+									<h6><a href="single.html">Peter</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -503,7 +503,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">God’s Compass</a></h6>							
+									<h6><a href="single.html">God’s Compass</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -525,7 +525,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 	</div>
 <!-- //banner-bottom -->
@@ -535,7 +535,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li class="w3_twitter"><a href="#">Twitter <i class="fa fa-twitter"></i></a></li>
 			<li class="w3_facebook"><a href="#">Facebook <i class="fa fa-facebook"></i></a></li>
 			<li class="w3_dribbble"><a href="#">Dribbble <i class="fa fa-dribbble"></i></a></li>
-			<li class="w3_g_plus"><a href="#">Google+ <i class="fa fa-google-plus"></i></a></li>				  
+			<li class="w3_g_plus"><a href="#">Google+ <i class="fa fa-google-plus"></i></a></li>
 		</ul>
   </nav>
 </div>
@@ -559,7 +559,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">God’s Compass</a></h6>							
+										<h6><a href="single.html">God’s Compass</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -585,7 +585,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">Bad Moms</a></h6>							
+										<h6><a href="single.html">Bad Moms</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -611,7 +611,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">Jason Bourne</a></h6>							
+										<h6><a href="single.html">Jason Bourne</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -637,7 +637,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">Rezort</a></h6>							
+										<h6><a href="single.html">Rezort</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -663,7 +663,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">Peter</a></h6>							
+										<h6><a href="single.html">Peter</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -689,7 +689,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">ISRA 88</a></h6>							
+										<h6><a href="single.html">ISRA 88</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -715,7 +715,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">War Dogs</a></h6>							
+										<h6><a href="single.html">War Dogs</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -741,7 +741,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">The Other Side</a></h6>							
+										<h6><a href="single.html">The Other Side</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -767,7 +767,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">Civil War</a></h6>							
+										<h6><a href="single.html">Civil War</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -793,7 +793,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">The Secret Life of Pets</a></h6>							
+										<h6><a href="single.html">The Secret Life of Pets</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -819,7 +819,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">The Jungle Book</a></h6>							
+										<h6><a href="single.html">The Jungle Book</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -845,7 +845,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="single.html">Assassin's Creed 3</a></h6>							
+										<h6><a href="single.html">Assassin's Creed 3</a></h6>
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>2016</p>
@@ -875,7 +875,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Assassin's Creed 3</a></h6>							
+									<h6><a href="single.html">Assassin's Creed 3</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -901,7 +901,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Bad Moms</a></h6>							
+									<h6><a href="single.html">Bad Moms</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -927,7 +927,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Central Intelligence</a></h6>							
+									<h6><a href="single.html">Central Intelligence</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -956,7 +956,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Light B/t Oceans</a></h6>							
+									<h6><a href="single.html">Light B/t Oceans</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -982,7 +982,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">X-Men</a></h6>							
+									<h6><a href="single.html">X-Men</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1008,7 +1008,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">The BFG</a></h6>							
+									<h6><a href="single.html">The BFG</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1034,7 +1034,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Peter</a></h6>							
+									<h6><a href="single.html">Peter</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1063,7 +1063,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Assassin's Creed 3</a></h6>							
+									<h6><a href="single.html">Assassin's Creed 3</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1089,7 +1089,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Bad Moms</a></h6>							
+									<h6><a href="single.html">Bad Moms</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1115,7 +1115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Central Intelligence</a></h6>							
+									<h6><a href="single.html">Central Intelligence</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1141,7 +1141,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Don't Think Twice</a></h6>							
+									<h6><a href="single.html">Don't Think Twice</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1167,7 +1167,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="mid-1 agileits_w3layouts_mid_1_home">
 								<div class="w3l-movie-text">
-									<h6><a href="single.html">Dead Island 2</a></h6>							
+									<h6><a href="single.html">Dead Island 2</a></h6>
 								</div>
 								<div class="mid-2 agile_mid_2_home">
 									<p>2016</p>
@@ -1217,9 +1217,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p class="fexi_header_para"><span>Date of Release<label>:</label></span> Jun 10, 2016 </p>
 									<p class="fexi_header_para">
 										<span>Genres<label>:</label> </span>
-										<a href="genres.html">Drama</a> | 
-										<a href="genres.html">Adventure</a> | 
-										<a href="genres.html">Family</a>								
+										<a href="genres.html">Drama</a> |
+										<a href="genres.html">Adventure</a> |
+										<a href="genres.html">Family</a>
 									</p>
 									<p class="fexi_header_para fexi_header_para1"><span>Star Rating<label>:</label></span>
 										<a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -1237,7 +1237,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Assassin's Creed 3</a></h6>							
+												<h6><a href="single.html">Assassin's Creed 3</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1263,7 +1263,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Bad Moms</a></h6>							
+												<h6><a href="single.html">Bad Moms</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1289,7 +1289,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Central Intelligence</a></h6>							
+												<h6><a href="single.html">Central Intelligence</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1315,7 +1315,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Light B/t Oceans</a></h6>							
+												<h6><a href="single.html">Light B/t Oceans</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1341,7 +1341,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">X-Men</a></h6>							
+												<h6><a href="single.html">X-Men</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1367,7 +1367,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Peter</a></h6>							
+												<h6><a href="single.html">Peter</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1407,8 +1407,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p class="fexi_header_para"><span>Date of Release<label>:</label></span> Oct 09, 2015 </p>
 									<p class="fexi_header_para">
 										<span>Genres<label>:</label> </span>
-										<a href="genres.html">Thriller</a> |  
-										<a href="genres.html">Horror</a>								
+										<a href="genres.html">Thriller</a> |
+										<a href="genres.html">Horror</a>
 									</p>
 									<p class="fexi_header_para fexi_header_para1"><span>Star Rating<label>:</label></span>
 										<a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -1426,7 +1426,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Bad Moms</a></h6>							
+												<h6><a href="single.html">Bad Moms</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1452,7 +1452,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Central Intelligence</a></h6>							
+												<h6><a href="single.html">Central Intelligence</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1478,7 +1478,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Light B/t Oceans</a></h6>							
+												<h6><a href="single.html">Light B/t Oceans</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1504,7 +1504,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">X-Men</a></h6>							
+												<h6><a href="single.html">X-Men</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1530,7 +1530,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Peter</a></h6>							
+												<h6><a href="single.html">Peter</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1556,7 +1556,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">The Jungle Book</a></h6>							
+												<h6><a href="single.html">The Jungle Book</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1596,8 +1596,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p class="fexi_header_para"><span>Date of Release<label>:</label></span> May 06, 2016 </p>
 									<p class="fexi_header_para">
 										<span>Genres<label>:</label> </span>
-										<a href="genres.html">Action</a> | 
-										<a href="genres.html">Adventure</a>								
+										<a href="genres.html">Action</a> |
+										<a href="genres.html">Adventure</a>
 									</p>
 									<p class="fexi_header_para fexi_header_para1"><span>Star Rating<label>:</label></span>
 										<a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -1615,7 +1615,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Bad Moms</a></h6>							
+												<h6><a href="single.html">Bad Moms</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1641,7 +1641,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Central Intelligence</a></h6>							
+												<h6><a href="single.html">Central Intelligence</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1667,7 +1667,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Light B/t Oceans</a></h6>							
+												<h6><a href="single.html">Light B/t Oceans</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1693,7 +1693,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">X-Men</a></h6>							
+												<h6><a href="single.html">X-Men</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1719,7 +1719,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">Peter</a></h6>							
+												<h6><a href="single.html">Peter</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1745,7 +1745,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</a>
 										<div class="mid-1 agileits_w3layouts_mid_1_home">
 											<div class="w3l-movie-text">
-												<h6><a href="single.html">The Secret Life of Pets</a></h6>							
+												<h6><a href="single.html">The Secret Life of Pets</a></h6>
 											</div>
 											<div class="mid-2 agile_mid_2_home">
 												<p>2016</p>
@@ -1788,7 +1788,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- //flexSlider -->
 		</div>
 	</div>
-	<!-- pop-up-box -->  
+	<!-- pop-up-box -->
 		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<!--//pop-up-box -->
 	<div id="small-dialog" class="mfp-hide">
@@ -1813,7 +1813,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			removalDelay: 300,
 			mainClass: 'my-mfp-zoom-in'
 		});
-																		
+
 		});
 	</script>
 <!-- //Latest-tv-series -->
@@ -1873,14 +1873,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
-    $(".dropdown").hover(            
+    $(".dropdown").hover(
         function() {
             $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
-            $(this).toggleClass('open');        
+            $(this).toggleClass('open');
         },
         function() {
             $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
-            $(this).toggleClass('open');       
+            $(this).toggleClass('open');
         }
     );
 });
@@ -1894,12 +1894,12 @@ $(document).ready(function(){
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
-				easingType: 'linear' 
+				easingType: 'linear'
 				};
 			*/
-								
+
 			$().UItoTop({ easingType: 'easeOutQuart' });
-								
+
 			});
 	</script>
 <!-- //here ends scrolling icon -->

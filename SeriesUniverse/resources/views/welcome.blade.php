@@ -16,12 +16,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/contactstyle.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/faqstyle.css" type="text/css" media="all" />
-<link href="css/single.css" rel='stylesheet' type='text/css' />
-<link href="css/medile.css" rel='stylesheet' type='text/css' />
+<link href="/css/single.css" rel='stylesheet' type='text/css' />
+<link href="/css/medile.css" rel='stylesheet' type='text/css' />
 <!-- banner-slider -->
 <link href="css/jquery.slidey.min.css" rel="stylesheet">
 <!-- //banner-slider -->
@@ -35,7 +35,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
 <!-- banner-bottom-plugin -->
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
 <script src="js/owl.carousel.js"></script>
 <script>
 	$(document).ready(function() {

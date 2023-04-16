@@ -20,6 +20,7 @@ Route::get('/ ', function () {
 Route::get('/serie/list', function () {
     return view('serie.list');
 });
+Route::get('/serie/create', [App\Http\Controllers\SerieController::class, 'create'])->name('serie.create');
 
 
 Auth::routes();

@@ -98,7 +98,7 @@
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">
                              {{ __('Register') }}
                             </button>
-                        <p class="text-center mb-0">Already have an Account? <a href="">Sign In</a></p>
+                        <p class="text-center mb-0">Already have an Account? <a href="{{route ('login')}}">Sign In</a></p>
                     </div>
                 </div>
 

@@ -35,13 +35,31 @@ Route::get('/ ', function () {
       ->where('destaque','=',1)
       ->get();
 
+    $ratingMovies = DB::table('filmes')
+      ->select('filmes.*')
+      ->orderBy('avaliacao','desc')
+      ->get();
+
+    $recentMovies = DB::table('filmes')
+      ->select('filmes.*')
+      ->orderBy('ano_lancamento','desc')
+      ->get();
+
     $series = DB::table('series')
       ->select('series.*')
       ->leftJoin('plataformas','plataforma_id','=','plataformas.id')
       ->leftJoin('categorias','categoria_id','=','categorias.id')
       ->get();
 
-    return view('welcome', compact('plataformas','categorias','filmes','series','featuredMovies'));
+      $banners = DB::table('filmes')
+      ->select('id', 'titulo', 'ano_lancamento', 'imagem', 'avaliacao', DB::raw("'f' AS tipo"))
+      ->unionAll(DB::table('series')
+          ->select('id', 'titulo', 'ano_lancamento', 'imagem', 'avaliacao', DB::raw("'s' AS tipo")))
+      ->inRandomOrder()
+      ->limit(10)
+      ->get();
+
+    return view('welcome', compact('plataformas','categorias','filmes','series','featuredMovies','ratingMovies','recentMovies','banners'));
 });
 
 Route::get('plataformas', function () {

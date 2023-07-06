@@ -17,7 +17,7 @@ return new class extends Migration
             $table->unsignedBigInteger('categoria_id');
             $table->unsignedBigInteger('plataforma_id');
             $table->longText('descricao');
-            $table->date('ano_lancamento');
+            $table->datetime('ano_lancamento');
             $table->string('duracao');
             $table->string('realizador');
             $table->longText('elenco');

@@ -18,25 +18,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //for-mobile-apps -->
 <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/contactstyle.css" type="text/css" media="all" />
-<link rel="stylesheet" href="css/faqstyle.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/contactstyle.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/faqstyle.css" type="text/css" media="all" />
 <link href="/css/single.css" rel='stylesheet' type='text/css' />
 <link href="/css/medile.css" rel='stylesheet' type='text/css' />
 <!-- banner-slider -->
-<link href="css/jquery.slidey.min.css" rel="stylesheet">
+<link href="/css/jquery.slidey.min.css" rel="stylesheet">
 <!-- //banner-slider -->
 <!-- pop-up -->
-<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //pop-up -->
 <!-- font-awesome icons -->
-<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
 <!-- //font-awesome icons -->
 <!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
 <!-- banner-bottom-plugin -->
 <link href="/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
-<script src="js/owl.carousel.js"></script>
+<script src="/js/owl.carousel.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#owl-demo").owlCarousel({
@@ -54,8 +54,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //banner-bottom-plugin -->
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="/js/move-top.js"></script>
+<script type="text/javascript" src="/js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){
@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">
 		<div class="container">
 			<div class="w3layouts_logo">
-				 <a href="index.html"><img height="60px" src="images/SeriesUniverse Logo.png" alt=""></a>
+				 <a href="index.html"><img height="60px" src="/images/SeriesUniverse Logo.png" alt=""></a>
 			</div>
 			<div class="w3_search">
 				<form action="#" method="post">
@@ -93,11 +93,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="content-wrapper">
             @yield('content')
           </div>
+
+    <div style="width:100%; text-align:center">
+        <a href="/"><h1><img class="float-left" src="/images/SeriesUniverse Logo.png" alt=""></h1></a>
     </div>
+
+</div>
+
+
     <!-- //footer -->
 
 <!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
     $(".dropdown").hover(
@@ -150,9 +157,7 @@ $(document).ready(function(){
 <!-- //Latest-tv-series -->
 <!-- footer -->
 
-<div class="col-md-6 w3ls_footer_grid_right">
-    <a href="index.html"><h1><img class="float-left" src="images/SeriesUniverse Logo.png" alt=""></h1></a>
-</div>
+
 </body>
 
 </html>

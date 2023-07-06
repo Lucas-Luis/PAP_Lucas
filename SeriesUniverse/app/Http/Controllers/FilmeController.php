@@ -71,7 +71,7 @@ class FilmeController extends Controller
         $filme->avaliacao= request('avaliacao');
         $filme->destaque=  $request->has('destaque');
         $filme->user_id = Auth::user()->id;
-        $file->storeAs('/images/articles', $name);
+        $file->storeAs('/public/images/articles', $name);
         $filme->save();
         return redirect('/Filmes/list')->with('messege','Filme inserido com sucesso!!');
     }
@@ -135,7 +135,7 @@ class FilmeController extends Controller
         $filme->trailer= request('triler');
         $filme->avaliacao= request('avaliacao');
         $filme->destaque = $request->has('destaque');
-        $file->storeAs('/images/articles', $name);
+        $file->storeAs('/public/images/articles', $name);
         $filme->save();
         return redirect('/Filmes/list')->with('messege','Filme inserido com sucesso!!');
     }

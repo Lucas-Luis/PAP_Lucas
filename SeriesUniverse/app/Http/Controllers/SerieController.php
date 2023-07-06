@@ -70,7 +70,7 @@ class SerieController extends Controller
         $serie->trailer= request('triler');
         $serie->avaliacao= request('avaliacao');
         $serie->user_id = Auth::user()->id;
-        $file->storeAs('images/articles',$name);
+        $file->storeAs('/public/images/articles',$name);
         $serie->save();
         return redirect('/series/list')->with('messege','Serie inserida com sucesso!!');
     }
@@ -130,9 +130,13 @@ class SerieController extends Controller
             $name = $designacao . "." . $extension;
             $serie->imagem = $name;
         }
+
         $serie->trailer= request('triler');
         $serie->avaliacao= request('avaliacao');
+        $serie->user_id = Auth::user()->id;
+        $file->storeAs('/public/images/articles',$name);
         $serie->save();
+
         return redirect('/series/list')->with('messege','Serie atualizada com sucesso!!');
     }
 

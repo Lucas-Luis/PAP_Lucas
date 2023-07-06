@@ -119,7 +119,7 @@
     <div class="form-group">
         <label for="destaque">Destaque</label>
         <div>
-          <input class="form-control"  type="checkbox" id="destaque" name="destaque" {{ ($artigo->destaque == '1') ? 'checked':'' }}
+          <input class="form-control"  type="checkbox" id="destaque" name="destaque" {{ ($filme->destaque == '1') ? 'checked':'' }}
             data-bootstrap-switch data-on-color="success">
         </div>
       </div>

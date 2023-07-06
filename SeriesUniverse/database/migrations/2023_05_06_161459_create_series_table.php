@@ -12,27 +12,37 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('series', function (Blueprint $table) {
+
             $table->id();
             $table->string('titulo');
-            $table->int('temporadas');
-            $table->enum('categoria',['Terror','Comedia','Acao','Romance']);
+            $table->integer('temporadas');
+            $table->unsignedBigInteger('categoria_id');
             $table->unsignedBigInteger('plataforma_id');
             $table->longText('descricao');
+            $table->date('ano_lancamento');
+            $table->string('realizador');
+            $table->longText('elenco');
             $table->string('imagem')->nullable();
-            $table->string('triler')->nullable();
+            $table->string('trailer')->nullable();
+            $table->integer('avaliacao');
             $table->unsignedBigInteger('user_id');
             $table->timestamps();
 
+
+            $table->foreign('categoria_id')
+                  ->references('id')
+                  ->on('categorias')
+                  ->onDelete('cascade');
 
             $table->foreign('plataforma_id')
                   ->references('id')
                   ->on('plataformas')
                   ->onDelete('cascade');
 
-            $table->foreign('user_id')
-                  ->references('id')
-                  ->on('users') 
-                  ->onDelete('users');     
+          $table->foreign('user_id')
+                 ->references('id')
+                 ->on('users')
+                 ->onDelete('cascade');
         });
     }
 

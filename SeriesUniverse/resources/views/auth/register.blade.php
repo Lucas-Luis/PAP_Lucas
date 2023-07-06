@@ -56,7 +56,7 @@
 
                         </div>
                         <div class="form-floating mb-3">
-                            <h3>Sign Up</h3>
+                            <h3>Registar</h3>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control @error('name') is-invalid @enderror" id="floatingText" placeholder="jhondoe"  name="name" value="{{ old('name') }}" required autocomplete="name" autofocus">
@@ -65,7 +65,7 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
-                            <label for="floatingText">{{ __('Name') }}</label>
+                            <label for="floatingText">{{ __('Nome') }}</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control @error('email') is-invalid @enderror" id="floatingInput" placeholder="name@example.com" name="email" value="{{ old('email') }}" required autocomplete="email">
@@ -74,7 +74,7 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
-                            <label for="floatingInput">{{ __('Email Address') }}</label>
+                            <label for="floatingInput">{{ __('Email') }}</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input type="password" class="form-control  @error('password') is-invalid @enderror" id="floatingPassword" placeholder="Password" name="password" required autocomplete="new-password">
@@ -83,22 +83,19 @@
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
-                            <label for="floatingPassword">{{ __('Password') }}</label>
+                            <label for="floatingPassword">{{ __('Palavra-passe') }}</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input type="password" class="form-control " id="floatingPassword" placeholder="Password" name="password_confirmation" required autocomplete="new-password">
 
-                            <label for="floatingPassword">{{ __('Confirm Password') }}</label>
+                            <label for="floatingPassword">{{ __('Confirmar Palavra-passe') }}</label>
                         </div>
 
-                        <div class="d-flex align-items-center justify-content-between mb-4">
 
-                            <a href="">Forgot Password</a>
-                        </div>
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">
-                             {{ __('Register') }}
+                             {{ __('Registrar') }}
                             </button>
-                        <p class="text-center mb-0">Already have an Account? <a href="{{route ('login')}}">Sign In</a></p>
+                        <p class="text-center mb-0">Já tem uma conta? <a href="{{route ('login')}}">Iniciar Sessão</a></p>
                     </div>
                 </div>
 

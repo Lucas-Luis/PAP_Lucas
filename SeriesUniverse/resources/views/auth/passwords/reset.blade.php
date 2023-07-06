@@ -57,7 +57,7 @@
                             </a>
 
                         </div>
-                        <h3>Sign Up</h3>
+                        <h3>Alterar palavra-passe</h3>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control @error('email') is-invalid @enderror" id="floatingText" placeholder="jhondoe" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus>
                             @error('email')
@@ -65,21 +65,21 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
-                            <label for="floatingText">{{ __('Email Address') }}</label>
+                            <label for="floatingText">{{ __('Email') }}</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="password" class="form-control @error('password') is-invalid @enderror" id="floatingInput" placeholder="name@example.com" name="password" required autocomplete="new-password">
-                            <label for="floatingInput">{{ __('Password') }}</label>
+                            <label for="floatingInput">{{ __('Palavra-passe') }}</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password_confirmation" required autocomplete="new-password">
-                            <label for="floatingPassword">{{ __('Confirm Password') }}</label>
+                            <label for="floatingPassword">{{ __('Confirmar Palavra-passe') }}</label>
                         </div>
 
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">
-                            {{ __('Reset Password') }}
+                            {{ __('Alterar') }}
                         </button>
-                        <p class="text-center mb-0">Already have an Account? <a href="">Sign In</a></p>
+
                     </div>
                 </form>
                 </div>

@@ -60,7 +60,7 @@
 
                         </div>
                         <div class="form-floating mb-3">
-                            <h3>Sign In</h3>
+                            <h3>Iniciar Sessão</h3>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control @error('email') is-invalid @enderror" id="floatingInput"   placeholder="name@example.com" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -69,7 +69,7 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
-                            <label for="floatingInput">{{ __('Email Address') }}</label>
+                            <label for="floatingInput">{{ __('Email') }}</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input type="password" class="form-control  @error('password') is-invalid @enderror" id="floatingPassword" placeholder="Password" name="password" required autocomplete="current-password">
@@ -78,23 +78,23 @@
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
-                            <label for="floatingPassword">{{ __('Password') }}</label>
+                            <label for="floatingPassword">{{ __('Palavra-passe') }}</label>
                         </div>
                         <div class="d-flex align-items-center justify-content-between mb-4">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
                             </div>
                             @if (Route::has('password.request'))
                             <a class="btn btn-link" href="{{ route('password.request') }}">
-                                {{ __('Forgot Your Password?') }}
+                                {{ __('Esqueceu-se da palavra-passe?') }}
                             </a>
                         @endif
                         </div>
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">
-                             {{ __('Login') }}
+                             {{ __('Iniciar Sessão') }}
                         </button>
-                        <p class="text-center mb-0">Don't have an Account? <a href="{{ route ('register')}}">Sign Up</a></p>
+                        <p class="text-center mb-0">Não tem uma conta? <a href="{{ route ('register')}}">Registar</a></p>
                     </div>
                 </div>
 

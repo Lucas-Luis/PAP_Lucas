@@ -13,6 +13,8 @@ class PlataformaController extends Controller
     public function index()
     {
         //
+        $plataformas = Plataforma::all();
+        return view('plataformas.list',compact("plataformas"));
     }
 
     /**
@@ -21,6 +23,7 @@ class PlataformaController extends Controller
     public function create()
     {
         //
+        return view('plataformas.create');
     }
 
     /**
@@ -29,6 +32,15 @@ class PlataformaController extends Controller
     public function store(Request $request)
     {
         //
+        request()->validate([
+            'plataforma'  => 'required',
+          ]);
+
+          $plataforma = new plataforma();
+          $plataforma->nome = request('plataforma');
+          $plataforma->save();
+          return redirect('/plataformas/list')->with('message','Plataforma inserida com sucesso!!');
+
     }
 
     /**
@@ -37,6 +49,7 @@ class PlataformaController extends Controller
     public function show(plataforma $plataforma)
     {
         //
+        return view('plataformas',compact('plataforma'));
     }
 
     /**
@@ -45,6 +58,7 @@ class PlataformaController extends Controller
     public function edit(plataforma $plataforma)
     {
         //
+        return view('show.edit',compact("plataforma"));
     }
 
     /**
@@ -53,7 +67,17 @@ class PlataformaController extends Controller
     public function update(Request $request, plataforma $plataforma)
     {
         //
+         request()->validate([
+            'plataforma'  => 'required',
+          ]);
+
+
+          $plataforma->nome = request('plataforma');
+          $plataforma->save();
+          return redirect('/plataformas/list')->with('message','Plataforma editada com sucesso!!');
+
     }
+
 
     /**
      * Remove the specified resource from storage.
@@ -61,5 +85,7 @@ class PlataformaController extends Controller
     public function destroy(plataforma $plataforma)
     {
         //
+        $plataforma->delete();
+        return redirect('/plataformas/list')->with('message','plataformas eliminada com sucesso!!');
     }
 }

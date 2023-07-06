@@ -14,25 +14,35 @@ return new class extends Migration
         Schema::create('filmes', function (Blueprint $table) {
             $table->id();
             $table->string('titulo');
-            $table->enum('categoria',['Terror','Comedia','Acao','Romance']);
+            $table->unsignedBigInteger('categoria_id');
             $table->unsignedBigInteger('plataforma_id');
             $table->longText('descricao');
+            $table->date('ano_lancamento');
+            $table->string('duracao');
+            $table->string('realizador');
+            $table->longText('elenco');
             $table->string('imagem')->nullable();
-            $table->string('triler')->nullable();
+            $table->string('trailer')->nullable();
+            $table->float('avaliacao');
+            $table->boolean('destaque');
             $table->unsignedBigInteger('user_id');
             $table->timestamps();
 
-            
+
+            $table->foreign('categoria_id')
+                  ->references('id')
+                  ->on('categorias')
+                  ->onDelete('cascade');
+
             $table->foreign('plataforma_id')
                   ->references('id')
                   ->on('plataformas')
                   ->onDelete('cascade');
-                  
 
-            $table->foreign('user_id')
-                  ->references('id')
-                  ->on('users') 
-                  ->onDelete('users');     
+          $table->foreign('user_id')
+                 ->references('id')
+                 ->on('users')
+                 ->onDelete('cascade');
         });
     }
 

@@ -65,10 +65,10 @@
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
-                            <label for="floatingInput">Email address</label>
+                            <label for="floatingInput">Email</label>
                         </div>
 
-                        <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
+                        <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Enviar</button>
 
                     </div>
                 </form>
